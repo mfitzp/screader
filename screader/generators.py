@@ -49,7 +49,10 @@ def markdown_generator(data):
             # Possible page header line. Look for centered text
             # strip of the author, if present.
             # Find first space to strip author (for now).
-            fs = line.index(' ')
+            try:
+                fs = line.index(' ')
+            except ValueError:
+                fs = 0
             author = line[:fs] if fs else ''
             sline = line[fs:]
             title = sline.strip()

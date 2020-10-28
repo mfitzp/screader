@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="screader",
-    version="0.0.1",
+    version="0.0.2",
     author="Martin Fitzpatrick",
     author_email="martin.fitzpatrick@gmail.com",
     description="Extract text from Sam Coupe Entropy reader files (as seen on FRED).",
