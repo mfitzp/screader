@@ -3,7 +3,7 @@
 This is a simple command-line converter for the Entropy Reader files, as used on the 
 FRED disk magazine. The **DOCREADER** format uses a combination of run-length compression for whitespace and token compression for words to reduce the size of text files. The dictionary is fixed for a given version of the reader/compressor. The format is [documented here](http://simoncooke.com/samcoupe/infobase/docs/docreader.html).
 
-See my website for an xplanation of [how the decoder works](https://www.mfitzp.com/article/samcoupe-reader/).
+See my website for an explanation of [how the decoder works](https://www.mfitzp.com/article/samcoupe-reader/).
 
 Taking a MAG file and reader executable (or compressor version), this converter extracts the data from MAG files, converting them into plaintext and (optionally) attempting to generate sensible Markdown-formatted files.
 
